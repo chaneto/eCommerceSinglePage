@@ -1,0 +1,90 @@
+[
+  {
+    "name": "DEL ix-25",
+    "category":"Monitor",
+    "description": "DEL ix-25 description...",
+    "quantity": "99",
+    "createdDate": "2020-06-12T13:12:12",
+    "lastModifiedDate": "2020-06-12T12:12:12"
+  },
+  {
+    "name": "Apple MacBook Air",
+    "category":"Laptop",
+    "description": "Apple MacBook Air description...",
+    "quantity": "55",
+    "createdDate": "2018-04-23T13:12:12",
+    "lastModifiedDate": "2021-12-25T13:12:12"
+  },
+  {
+    "name": "Toshiba Satellite l 500",
+    "category":"Laptop",
+    "description": "Toshiba Satellite l 500 description...",
+    "quantity": "33",
+    "createdDate": "2010-09-09T13:12:12",
+    "lastModifiedDate": "2018-05-13T13:12:12"
+  },
+  {
+    "name": "LG OLED88Z19LA",
+    "category":"TV",
+    "description": "LG OLED88Z19LA description...",
+    "quantity": "15",
+    "createdDate": "2021-01-15T13:12:12",
+    "lastModifiedDate": "2022-01-15T13:12:12"
+  },
+  {
+    "name": "LG OLED88Z19",
+    "category":"Monitor",
+    "description": "LG OLED88Z19 description...",
+    "quantity": "22",
+    "createdDate": "2010-01-15T13:12:12",
+    "lastModifiedDate": "2020-01-15T13:12:12"
+  },
+  {
+    "name": "Samsung 43AU7",
+    "category":"Monitor",
+    "description": "Samsung 43AU7 description...",
+    "quantity": "9",
+    "createdDate": "2020-03-15T13:12:12",
+    "lastModifiedDate": "2022-01-22T13:12:12"
+  },
+  {
+    "name": "Samsung 43AU7172",
+    "category":"TV",
+    "description": "Samsung 43AU7172 description...",
+    "quantity": "3",
+    "createdDate": "2020-01-23T13:12:12",
+    "lastModifiedDate": "2021-06-01T13:12:12"
+  },
+  {
+    "name": "ASUS TUF F15 FX506LH",
+    "category":"Laptop",
+    "description": "ASUS TUF F15 FX506LH description...",
+    "quantity": "5",
+    "createdDate": "2021-03-03T13:12:43",
+    "lastModifiedDate": "2021-09-03T13:45:12"
+  },
+  {
+    "name": "Apple MacBook Pro 14",
+    "category":"Laptop",
+    "description": "Apple MacBook Pro 14 description...",
+    "quantity": "7",
+    "createdDate": "2020-01-01T13:23:12",
+    "lastModifiedDate": "2022-01-01T13:35:42"
+  },
+  {
+    "name": "Philips 58PUS8536",
+    "category":"TV",
+    "description": "Philips 58PUS8536 description...",
+    "quantity": "3",
+    "createdDate": "2020-06-01T13:12:12",
+    "lastModifiedDate": "2021-09-09T18:55:12"
+  },
+  {
+    "name": "Dell Alienware Area",
+    "category":"Laptop",
+    "description": "Dell Alienware Area description...",
+    "quantity": "1",
+    "createdDate": "2020-07-07T13:12:12",
+    "lastModifiedDate": "2021-06-01T09:33:12"
+  }
+]

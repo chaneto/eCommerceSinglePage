@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>eCommerce</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="module" src="/js/src/app.js"></script>
+   <!-- <script type="module" src="/js/src/view/addProduct.js"></script> -->
+</head>
+
+<body>
+<div class="container" id="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand text-light" href="/">
+            <img src="/img/home.png" width="40px" alt="Logo picture">
+        </a>
+
+        <div id="dropdown" style="display: none" class="dropdown">
+            <button class="dropbtn">Order by</button>
+            <div class="dropdown-content">
+                <a id="nameAsc">Name a...z</a>
+                <a id="nameDesc">Name z...a</a>
+                <a id="categoryAsc">Category a...z</a>
+                <a id="categoryDesc">Category z...a</a>
+                <a id="dateAsc">Date 1...9</a>
+                <a id="dateDesc">Date 9...1</a>
+            </div>
+        </div>
+
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item">
+                <a id="allCategory" class="nav-link"  href="#">All Category</a>
+            </li>
+            <li class="nav-item">
+                <a id="addProduct" class="nav-link"  href="#">Add Product</a>
+            </li>
+            <li class="nav-item">
+                <a id="allProducts" class="nav-link" href="#">All Product</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="home-page">
+        <div class="jumbotron jumbotron-fluid text-light" style="background-color: #343a40;">
+            <img src="/img/img.jpg"
+                 class="img-fluid" alt="Responsive image" style="width: 150%; height: 200px">
+            <h1 class="display-4">Welcome</h1>
+            <p class="lead">Unlimited computer, monitor, TV, and more.</p>
+        </div>
+    </section>
+
+    <div id="pagination" class="container" style="display: none">
+        <ul class="pagination">
+            <li><a id="previous" style="display: none">Previous</a></li>
+            <h3 id="pageNumber">1</h3>
+            <!--            <li><a id="first"></a>2</li>-->
+            <!--            <li><a id="second">3</a></li>-->
+            <!--            <li><a id="third">4</a></li>-->
+            <!--            <li><a id="more">...</a></li>-->
+            <li><a id ="next">Next</a></li>
+        </ul>
+    </div>
+
+
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3">© 2022
+            <a href="#" class="text-dark">
+                Applications</a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

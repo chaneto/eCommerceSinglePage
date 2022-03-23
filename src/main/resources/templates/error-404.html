@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>    <meta charset="UTF-8">
+    <title>eCommerce</title>
+    <link rel="icon" type="image/png" href="../static/favicon.ico">
+    <link href="../static/css/site.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+<body>
+
+<main class="p-5 align-content-center bg-blur">
+    <div class="container" id="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <a class="navbar-brand text-light" href="/">
+                <img src="/img/home.png" width="40px" alt="Logo picture">
+            </a>
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a class="nav-link"  href="/categories/getAllCategory">All Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="/products/add">Add Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"   th:href="@{'/products/allProducts/{id}/{pageNo}'(id = 1, pageNo = 0)}">All Product</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h5 class="text-black">
+            Ups... we could not find the requested resource!
+            <br/>
+            Please excuse us, we are working on it...
+        </h5>
+
+        <footer class="page-footer font-small">
+            <div class="footer-copyright text-center py-3">© 2022
+                <a href="#" class="text-dark">
+                    Applications</a>
+            </div>
+        </footer>
+    </div>
+
+</main>
+</body>
+</html>
