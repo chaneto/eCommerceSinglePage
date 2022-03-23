@@ -175,4 +175,11 @@ public class ProductServiceImplTest {
         BigDecimal newQuantity = productEntity1.getQuantity().subtract(quantityBuy);
         Assert.assertEquals(BigDecimal.valueOf(3).stripTrailingZeros(), newQuantity.stripTrailingZeros());
     }
+
+    @Test
+    public void findAllProductsWithOutPagination(){
+        List<ProductViewModel> products = this.productService.findAllProductsWithOutPagination();
+        Assert.assertEquals(2, products.size());
+    }
+
 }
